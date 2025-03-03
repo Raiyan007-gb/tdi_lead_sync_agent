@@ -1,0 +1,16 @@
+name: lead-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11  # Or your preferred Python version >= 3.8
+  - pydantic
+  - pip:
+    - pyautogen
+    - sqlite=3.39.0
+    - autogen-agentchat~=0.2
+    - groq
+    - pandas
+    - python-dotenv
+    - pydantic-settings
+    - chromadb
+    - sentence-transformers
